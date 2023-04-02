@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    background-color: #f6f5ee;
+    scroll-behavior: smooth;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.shadow1::before{
+    content: "";
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fdc401;
+    box-shadow: 0 0 0 40px rgb(244,214,108),
+    0 0 0 80px rgb(255,234,166);
+    top: 0;
+    left: 85px;
+    z-index: -1;
+}
+.btnshadow{
+    transition: all 0.3s ease-in;
+}
+.btnshadow:hover{
+    box-shadow:2px 2px 5px #000 ;
+}
+
+.circle::before{
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ffac46;
+    box-shadow: 0 0 0 7px white ;
+    left: -3px;
+    top: 49px;
+}
