@@ -1,0 +1,37 @@
+.splide__arrow svg{
+    fill: black;
+    height: 20px;
+    width: 20px;
+}
+.splide__arrow{
+    height: 40px;
+    width: 40px;
+    background:rgb(226, 226, 2) !important;
+    opacity: 1;
+    border-radius: 10px;
+}
+.splide__arrow--prev{
+    left: -60px;
+}
+.splide__arrow--next{
+    right: -60px;
+}
+.splide__pagination{
+    bottom: -70px;
+}
+.splide__pagination__page.is-active{
+
+    background: yellow !important;
+    opacity: 1;
+}
+.splide__pagination__page{
+    height: 25px;
+    width: 25px;
+    border-radius: 8px;
+    background: rgba(255, 255, 0, 0.555) !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
