@@ -3,6 +3,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { topsellingapi } from "../data/data";
 import "@splidejs/react-splide/css";
 import "../arrow.css"
+import { motion } from "framer-motion";
 
 const Top = () => {
   const splideOptions = {
@@ -23,7 +24,7 @@ const Top = () => {
     },
   };
   return (
-    <div className=" mt-[120px] px-[90px]">
+    <div id="product" className=" mt-[120px] px-[90px]">
       <div className="text-center">
         <h1 className="poppins font-bold text-[50px] leading-[58px]">
           A Top-Selling Products
@@ -38,12 +39,12 @@ const Top = () => {
           {topsellingapi.map((item, index) => (
             <SplideSlide key={item.id}>
               <div>
-                <div
+                <div 
                   className={`h-[300px] w-[270px] bg-gradient-to-b ${item.color} ${item.shadow} over relative rounded-lg flex items-center justify-center`}
                 >
                   <button className="absolute bg-[#fdc400] rounded-full text-[25px] p-[5px] z-[1] top-[15px] right-[10px]">{item.icon1}</button>
-                  <img
-                    className="h-auto w-full rotate-[15deg] object-contain scale-110 origin-bottom cursor-pointer "
+                  <motion.img initial={{rotate:0, scale:0}} whileInView={{rotate:"15deg",scale:1.1}}
+                    className="h-auto w-full rotate-[15deg] object-contain origin-bottom cursor-pointer "
                     src={item.img}
                     alt="top/img"
                   />

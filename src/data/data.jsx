@@ -66,12 +66,6 @@ export const testimonialsapi =[
     name:"Gita Magar",
     text:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id error iusto dolores recusandae nesciunt velit commodi sed explicabo pariatur necessitatibus!",
   },
-  {
-    id:304,
-    img:img17,
-    name:"Ram Ale",
-    text:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id error iusto dolores recusandae nesciunt velit commodi sed explicabo pariatur necessitatibus!",
-  },
 ]
 
 export const favouriteapi =[
@@ -274,17 +268,17 @@ export const navlink = [
   {
     id: 101,
     title: "Home",
-    icon: <BiSearch />,
+    link:"#home",
   },
   {
     id: 202,
-    title: "About",
-    icon: <AiOutlineUser />,
+    link:"#collection",
+    title: "Collection",
   },
   {
     id: 303,
+    link:"#product",
     title: "Products",
-    icon: <RiShoppingBasketFill />,
   },
   {
     id: 404,
@@ -292,6 +286,7 @@ export const navlink = [
   },
   {
     id: 505,
+    link:"#testimonials",
     title: "Testimonials",
   },
   {
@@ -305,7 +300,7 @@ export const catalogapi = [
     id: 11,
     img: img1,
     name: "Blue Sneakers",
-    price: "$150",
+    price: "150",
     icon1: <AiFillHeart />,
     icoon2: <AiOutlinePlus />,
   },
@@ -313,7 +308,7 @@ export const catalogapi = [
     id: 12,
     img: img2,
     name: "Green Sneakers",
-    price: "$180",
+    price: "180",
     icon1: <AiFillHeart />,
     icoon2: <AiOutlinePlus />,
   },
@@ -321,7 +316,7 @@ export const catalogapi = [
     id: 13,
     img: img3,
     name: "Black Sneakers",
-    price: "$165",
+    price: "165",
     icon1: <AiFillHeart />,
     icoon2: <AiOutlinePlus />,
   },

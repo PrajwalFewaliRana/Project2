@@ -25,7 +25,7 @@ const Collection = () => {
               <p className="poppins font-semibold text-[#00000086] text-[12px] leading-[14px]">
                 Price:{" "}
                 <span className="text-[#000000c4] font-semibold text-[14px] leading-[14px]">
-                  {item.price}
+                  ${item.price}
                 </span>
               </p>
             </div>
