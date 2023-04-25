@@ -99,7 +99,8 @@ export const favouriteapi =[
 export const topsellingapi = [
   {
     id: "0M0x1",
-    title: "Nike Air Low Premium",
+
+text:"MEN Running Shoes",    title: "Nike Air Low Premium",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "123Pc",
@@ -111,7 +112,8 @@ export const topsellingapi = [
   },
   {
     id: "0M0x2",
-    title: "Nike Air Force Green",
+
+text:"MEN Running Shoes",    title: "Nike Air Force Green",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "153Pc",
@@ -123,7 +125,8 @@ export const topsellingapi = [
   },
   {
     id: "0M0x3",
-    title: "Nike Addapt BB Rose",
+
+text:"MEN Running Shoes",    title: "Nike Addapt BB Rose",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "134Pc",
@@ -135,7 +138,8 @@ export const topsellingapi = [
   },
   {
     id: "0M0x4",
-    title: "Nike Air Premium",
+
+text:"MEN Running Shoes",    title: "Nike Air Premium",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "165Pc",
@@ -147,7 +151,8 @@ export const topsellingapi = [
   },
   {
     id: "0M0x5",
-    title: "Nike Adapt BB Pro",
+
+text:"MEN Running Shoes",    title: "Nike Adapt BB Pro",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "323Pc",
@@ -159,7 +164,8 @@ export const topsellingapi = [
   },
   {
     id: "0M0x6",
-    title: "Air Jordan PR3",
+
+text:"MEN Running Shoes",    title: "Air Jordan PR3",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "723Pc",
@@ -171,7 +177,8 @@ export const topsellingapi = [
   },
   {
     id: "0M0x7",
-    title: "Nike Multi Smart Shoe",
+
+text:"MEN Running Shoes",    title: "Nike Multi Smart Shoe",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "183Pc",
@@ -183,7 +190,8 @@ export const topsellingapi = [
   },
   {
     id: "0M0x8",
-    title: "Nike Jordan Air Max",
+
+text:"MEN Running Shoes",    title: "Nike Jordan Air Max",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "186Pc",
@@ -195,7 +203,8 @@ export const topsellingapi = [
   },
   {
     id: "0M0x9",
-    title: "Nike Old Max-x",
+
+text:"MEN Running Shoes",    title: "Nike Old Max-x",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
     quan: "134Pc",
@@ -207,6 +216,7 @@ export const topsellingapi = [
   },
   {
     id: "0M0x10",
+    text:"MEN Running Shoes",
     title: "Nike Lime Jordan 11",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
@@ -219,6 +229,7 @@ export const topsellingapi = [
   },
   {
     id: "0M0x11",
+    text:"MEN Running Shoes",
     title: "Nike Air Black Max",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
@@ -231,6 +242,7 @@ export const topsellingapi = [
   },
   {
     id: "0M0x12",
+    text:"MEN Running Shoes",
     title: "Nike Zoom Max",
     icon1: <RiShoppingBasketFill />,
     icon2: <HiOutlineArrowNarrowRight />,
@@ -299,7 +311,7 @@ export const catalogapi = [
   {
     id: 11,
     img: img1,
-    name: "Blue Sneakers",
+    title: "Blue Sneakers",
     price: "150",
     icon1: <AiFillHeart />,
     icoon2: <AiOutlinePlus />,
@@ -307,7 +319,7 @@ export const catalogapi = [
   {
     id: 12,
     img: img2,
-    name: "Green Sneakers",
+    title: "Green Sneakers",
     price: "180",
     icon1: <AiFillHeart />,
     icoon2: <AiOutlinePlus />,
@@ -315,7 +327,7 @@ export const catalogapi = [
   {
     id: 13,
     img: img3,
-    name: "Black Sneakers",
+    title: "Black Sneakers",
     price: "165",
     icon1: <AiFillHeart />,
     icoon2: <AiOutlinePlus />,

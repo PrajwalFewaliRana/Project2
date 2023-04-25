@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
 
   return (
-    <div id="home" className="flex pl-[100px] items-center justify-between pr-[100px]">
+    <div id="home" className="flex pl-[100px] items-center justify-between pr-[80px]">
       <div className=" w-auto">
         <h1 className="poppins font-bold text-[65px] leading-[78px]">
           <span className="text-[#fcc402]">Shoe</span> of The <br /> Best

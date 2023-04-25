@@ -1,19 +1,21 @@
-import Cart from "./components/Cart"
-import Footer from "./components/Footer"
-import Home from "./components/Home"
-import Navbar from "./components/Navbar"
-
+import Cart from "./components/Cart";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Navbar from "./components/Navbar";
+import Signup from "./components/Signup";
 
 function App() {
-
   return (
     <>
-    <Navbar />
-    <Cart />
-    <Home />
-    <Footer />
+      <Cart />
+      <Navbar />
+      <Login />
+      <Signup />
+      <Home />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

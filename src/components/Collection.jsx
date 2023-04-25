@@ -20,7 +20,7 @@ const Collection = () => {
           <div className="flex justify-between items-center mt-[20px]">
             <div>
               <h1 className="poppins font-semibold text-[18px] leading-tight text-[#000000dc] tracking-[0.5px]">
-                {item.name}
+                {item.title}
               </h1>
               <p className="poppins font-semibold text-[#00000086] text-[12px] leading-[14px]">
                 Price:{" "}
@@ -29,7 +29,7 @@ const Collection = () => {
                 </span>
               </p>
             </div>
-            <button className="bg-[#fdc400] p-[5px] rounded-md text-[24px]">
+            <button title="Add To Cart" className="bg-[#fdc400] p-[5px] rounded-md text-[24px] cursor-pointer">
               {item.icoon2}
             </button>
           </div>
