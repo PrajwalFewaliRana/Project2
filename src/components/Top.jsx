@@ -13,11 +13,11 @@ const Top = () => {
     type: "loop",
     rewind: true,
     keyboard: "global",
-    gap: "4.3rem",
+    gap: "3rem",
     pagination: true,
-    padding: "1.5rem",
+    padding: "1rem",
     breakpoints: {
-      1200: { perPage: 3 },
+      1280: { perPage: 3.5 },
       991: { perPage: 2.3 },
       768: { perPage: 2 },
       500: { perPage: 1.3 },
@@ -28,7 +28,7 @@ const Top = () => {
  
 
   return (
-    <div id="product" className=" mt-[120px] px-[90px]">
+    <div id="product" className=" mt-[120px] px-[80px]">
       <div className="text-center">
         <h1 className="poppins font-bold text-[50px] leading-[58px]">
           A Top-Selling Products

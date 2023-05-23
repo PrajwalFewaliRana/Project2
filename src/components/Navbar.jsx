@@ -46,7 +46,7 @@ const Navbar = () => {
   const totalQTY = useSelector(selectTotalQTY);
 
   return (
-    <header className="w-full flex items-center bg-[#f0eee5] px-[100px] py-[25px] sticky top-0 z-[99] justify-between shadow-lg ">
+    <header className="w-full bg-[#f0eee5] flex items-center px-[100px] py-[25px] sticky top-0 z-[99] justify-between shadow-lg ">
       <ul className="flex items-center gap-[55px] ">
         {navlink.map((item, index) => (
           <a
@@ -54,7 +54,7 @@ const Navbar = () => {
             key={index}
             className={`poppins cursor-pointer ${
               index === 3
-                ? "font-bold text-[#7b29dd] text-[26px] leading-[28px] px-[90px] "
+                ? "font-bold text-[#7b29dd] text-[26px] leading-[28px] 2xl:px-[20px] px-[90px] "
                 : "hover:text-[#7b29dd] font-semibold text-[#33312f] text-[15px] leading-[18px]"
             }`}
           >

@@ -35,7 +35,7 @@ const Collection = () => {
           </div>
         </div>
       ))}
-      <div className="h-[340px] w-[400px] ml-[100px] -mt-[20px]">
+      <div className="h-[340px] w-[400px] 2xl:w-[350px] 2xl:h-auto 2xl:ml-[20px] ml-[40px] -mt-[20px]">
         <img src={img} alt="leg/img" className="h-full w-full object-cover" />
       </div>
     </div>

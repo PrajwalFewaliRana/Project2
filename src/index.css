@@ -51,11 +51,11 @@
 }
 .over::before {
   content: "";
-  height: 280px;
-  width: 310px;
+  height: 260px;
+  width: 280px;
   position: absolute;
   top: 10px;
-  left: -20px;
+  left: -15px;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 15px;
@@ -71,7 +71,7 @@
   background-color: rgb(9, 255, 9);
   position: absolute;
   top: -60px;
-  right: 139px;
+  right: 91px;
   border-radius: 50%;
   z-index: 1;
   box-shadow: 0 0 5px 2px rgb(9, 255, 9);
@@ -90,4 +90,13 @@
 }
 .scroll-hidden::-webkit-scrollbar {
   display: none;
+}
+@media screen and (max-width: 1279px) {
+  .dot::before{
+    right: 100px;
+  }
+  .shadow1::before {
+    height: 350px;
+    width: 350px;
+  }
 }

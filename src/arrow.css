@@ -35,3 +35,11 @@
 }
 
 
+@media screen and (max-width: 1279px) {
+    .splide__arrow--prev{
+        left: -45px;
+    }
+    .splide__arrow--next{
+        right: -45px;
+    }
+  }

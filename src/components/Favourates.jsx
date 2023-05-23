@@ -16,9 +16,9 @@ const Favourates = () => {
     padding: "1.5rem",
     breakpoints: {
       1200: { perPage: 1 },
-      991: { perPage: 2.3 },
-      768: { perPage: 2 },
-      500: { perPage: 1.3 },
+      991: { perPage: 1 },
+      768: { perPage: 1 },
+      500: { perPage: 1 },
       425: { perPage: 1 },
     },
   };
@@ -38,7 +38,7 @@ const Favourates = () => {
           {favouriteapi.map((item) => (
             <SplideSlide key={item.id}>
               <div className="w-full ">
-                <div className="w-full flex items-center justify-between h-[42.5vh] gap-[32px] mb-[32px] overflow-hidden">
+                <div className="w-full flex items-center justify-between 2xl:h-[37vh] h-[42.5vh] gap-[32px] mb-[32px] overflow-hidden">
                   <motion.img initial={{x:"-100%",opacity:0}} whileInView={{x:0,opacity:1}}
                     src={item.Image_1}
                     alt="img_1"
@@ -55,7 +55,7 @@ const Favourates = () => {
                     className="object-cover h-full w-[25%] rounded-lg cursor-pointer "
                   />
                 </div>
-                <div className="w-full h-[42.5vh] flex items-center justify-between px-[230px] gap-[32px]">
+                <div className="w-full h-[42.5vh] 2xl:h-[37vh] flex items-center justify-between px-[230px] gap-[32px]">
                   <motion.img initial={{y:"100%",opacity:0}} whileInView={{y:0,opacity:1}}
                     src={item.Image_4}
                     alt="img_4"

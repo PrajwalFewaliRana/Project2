@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 const Hero = () => {
 
   return (
-    <div id="home" className="flex pl-[100px] items-center justify-between pr-[80px]">
+    <div id="home" className="flex pl-[100px] items-center justify-between 2xl:pr-[40px] pr-[80px]">
       <div className=" w-auto">
-        <h1 className="poppins font-bold text-[65px] leading-[78px]">
+        <h1 className="poppins font-bold 2xl:text-[62px] text-[65px] 2xl:leading-[75px] leading-[78px]">
           <span className="text-[#fcc402]">Shoe</span> of The <br /> Best
           Quality
         </h1>
@@ -21,8 +21,8 @@ const Hero = () => {
         </button>     
       </div>
       <div className="w-[550px] h-auto relative">
-        <div init className="w-full  h-auto  shadow1 z-[9]">
-          <motion.img initial={{rotate:0}} whileInView={{rotate:"-25deg"}} className="w-full trans h-auto object-contain " src={img} alt="main/img" />
+        <div className="w-full  h-auto  shadow1 z-[9]">
+          <motion.img initial={{rotate:0}} whileInView={{rotate:"-25deg"}} className="w-full 2xl:w-[500px] h-auto object-contain " src={img} alt="main/img" />
         </div>
         <motion.button whileInView={{x:0,opacity:1}} initial={{x:'-300%',opacity:0}} className="flex absolute top-0 -left-[50px] bg-[#7b29dd] items-center gap-[15px] py-[10px] px-[25px] rounded-lg circle">
           <h1 className="poppins text-white text-[32px]">15%</h1>

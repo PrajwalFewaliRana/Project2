@@ -16,10 +16,10 @@ const Assistants = () => {
         </p>
       </div>
       <div className="flex mt-[40px] w-full h-[100px] items-center opacity-[0.5] justify-between">
-        <img src={img1} alt="img/1" className="object-contain w-[250px] h-auto" />
-        <img src={img2} alt="img/2" className="object-contain w-[250px] h-auto" />
-        <img src={img3} alt="img/3" className="object-contain w-[250px] h-auto" />
-        <img src={img4} alt="img/4" className="object-contain w-[250px] h-auto" />
+        <img src={img1} alt="img/1" className="object-contain w-[250px] 2xl:w-[200px] h-auto" />
+        <img src={img2} alt="img/2" className="object-contain w-[250px] 2xl:w-[200px] h-auto" />
+        <img src={img3} alt="img/3" className="object-contain w-[250px] 2xl:w-[200px] h-auto" />
+        <img src={img4} alt="img/4" className="object-contain w-[250px] 2xl:w-[200px] h-auto" />
       </div>
     </div>
   );
