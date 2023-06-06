@@ -1,6 +1,6 @@
 # Project2
 
-This is my second project which is also made by using vit + react with tailwind css.
+This is my second project which is also made by using vite + react with tailwind css.
 
 This project is E-commerce website of shoes . I copied the design from dribble beacause i don't have that much knowledge about design
 and if i start to do both design and code it only slows me down. In this project there are some animations while scrolling. I also made 
